@@ -31,7 +31,7 @@ public class SalesComissionTest {
     // First Test
 
     @Test
-    // Snake Case (refers to the style of writing)
+    // Using Snake Case here for example (refers to the style of writing)
     public void must_calculate_20_dollars_of_commission_for_sale_of_200() {
         // Arrange
         double saleValue = 200.00;
@@ -42,6 +42,18 @@ public class SalesComissionTest {
 
         // Assert
         Assertions.assertEquals(expectedCommission, calculatedCommission);
+    }
+
+    // Second Test
+
+    @Test
+    public void must_calculate_150_dollars_of_commision_for_sale_of_1000() {
+        // Arrange
+
+        // Act
+
+        // Assert
+
     }
 
 }
