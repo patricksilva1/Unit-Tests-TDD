@@ -13,7 +13,8 @@ public class SalesComissionTest {
     /**
      * @return Sales under a thousand dollars will generate 10% commission.
      * @return Sales above a thousand dollars will receive a commission of 15%.
-     * @param Here we to need use the AAA (Arrange, Act and Assert) for the unit test
+     * @param Here we to need use the AAA (Arrange, Act and Assert) for the unit
+     *             test
      */
 
     @Autowired
@@ -26,6 +27,8 @@ public class SalesComissionTest {
             return new SalesComission();
         }
     }
+
+    // First Test
 
     @Test
     // Snake Case (refers to the style of writing)
