@@ -32,7 +32,7 @@ public class SalesComissionTest {
     public void must_calculate_20_dollars_of_commission_for_sale_of_200() {
         // Arrange
         double saleValue = 200.00;
-        double expectedCommission = 2222220.0;
+        double expectedCommission = 20.0;
 
         // Act
         double calculatedCommission = salesComission.calculate(saleValue);
